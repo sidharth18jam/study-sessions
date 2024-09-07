@@ -12,9 +12,10 @@ def create_dict():
 
 def display_dict(dict):
     total = 0
+    i = 1
     print('Items in the dictionary:')
     for k,v in dict.items():
-        print (str(v) +' ' + k)
+        print ( str(i) + '. ' + k + ' ' +  str(v))
         total = total + int (v)
     print('Total number of items:' + str(total))
 

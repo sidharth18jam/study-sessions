@@ -1,14 +1,14 @@
 def create_dict():
-    dict = {}  # Create an empty dictionary
+    dict = {}
     while True:
-        key = input("Enter key (or type 'exit' to stop): ")  # Ask for the key
+        key = input("Enter key (or type 'exit' to stop): ")
         if key.lower() == 'exit':
-            break  # Exit the loop if the user types 'exit'
+            break
         
-        value = input(f"Enter value for {key}: ")  # Ask for the value
-        dict[key] = value  # Store the key-value pair in the dictionary
+        value = input(f"Enter value for {key}: ")
+        dict[key] = value
         
-    return dict  # Return the final dictionary
+    return dict
 
 def display_dict(dict):
     total = 0
